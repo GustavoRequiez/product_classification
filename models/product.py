@@ -7,12 +7,12 @@ class ProductClasification(models.Model):
     _inherit = 'product.template'
     _name = 'product.template'
 
-    its_line = fields.Boolean(string="its line")
+    its_line = fields.Boolean(string="Es linea")
     classification_ABC = fields.Selection([
         ('A', 'A'),
         ('B', 'B'),
-        ('C', 'C')], string="classification ABC", required=True)
+        ('C', 'C')], string="Classificación ABC", required=True)
     classification_XYZ = fields.Selection([
         ('X', 'X'),
         ('Y', 'Y'),
-        ('Z', 'Z')], string="classification XYZ", required=True)
+        ('Z', 'Z')], string="Classificación XYZ", required=True)

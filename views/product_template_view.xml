@@ -12,9 +12,4 @@
       </field>
     </field>
   </record>
-
-  <!--<record model="ir.ui.view" id="product_classification_search_view"> <field name="name">product.classification.search</field> <field name="model">product.template</field> <field name="arch" type="xml"> <search> <group string="Group By"> <filter
-  name="its_lineLine" string="Its Line" context="{'group_by': 'its_line'}"/> </group> <group string="Group By"> <filter name="classification_ABC" string="classification ABC" context="{'group_by': 'classification_ABC'}"/> </group> <group string="Group
-  By"> <filter name="classification_XYZ" string="Classification XYZ" context="{'group_by': 'classification_XYZ'}"/> </group> </search> </field> </record>-->
-
 </odoo>

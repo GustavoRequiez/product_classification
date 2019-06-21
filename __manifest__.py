@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "product_clasification",
+    'name': "product_classification",
     'summary': """
-        Product Clasification""",
+        Product Classification""",
     'description': """
-        Product Clasification
+        Fields for the classification of the product.
     """,
     'author': "gflores",
     'website': "https://www.gruporequiez.com",

@@ -1,13 +1,13 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* product_clasification
+#	* product_classification
 #
 msgid ""
-msgstr " "
+msgstr ""
 "Project-Id-Version: Odoo Server 11.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-06-21 17:11+0000\n"
-"PO-Revision-Date: 2019-06-21 17:11+0000\n"
+"POT-Creation-Date: 2019-07-04 14:44+0000\n"
+"PO-Revision-Date: 2019-07-04 14:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15,25 +15,25 @@ msgstr " "
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: product_clasification
-#: model:ir.model.fields,field_description:product_clasification.field_product_product_classification_ABC
-#: model:ir.model.fields,field_description:product_clasification.field_product_template_classification_ABC
+#. module: product_classification
+#: model:ir.model.fields,field_description:product_classification.field_product_product_classification_ABC
+#: model:ir.model.fields,field_description:product_classification.field_product_template_classification_ABC
 msgid "Classification ABC"
 msgstr "Clasificación ABC"
 
-#. module: product_clasification
-#: model:ir.model.fields,field_description:product_clasification.field_product_product_classification_XYZ
-#: model:ir.model.fields,field_description:product_clasification.field_product_template_classification_XYZ
+#. module: product_classification
+#: model:ir.model.fields,field_description:product_classification.field_product_product_classification_XYZ
+#: model:ir.model.fields,field_description:product_classification.field_product_template_classification_XYZ
 msgid "Classification XYZ"
 msgstr "Clasificación XYZ"
 
-#. module: product_clasification
-#: model:ir.model.fields,field_description:product_clasification.field_product_product_its_line
-#: model:ir.model.fields,field_description:product_clasification.field_product_template_its_line
+#. module: product_classification
+#: model:ir.model.fields,field_description:product_classification.field_product_product_its_line
+#: model:ir.model.fields,field_description:product_classification.field_product_template_its_line
 msgid "Its Line"
 msgstr "Es Linea"
 
-#. module: product_clasification
-#: model:ir.model,name:product_clasification.model_product_template
+#. module: product_classification
+#: model:ir.model,name:product_classification.model_product_template
 msgid "Product Template"
 msgstr "Plantilla de producto"

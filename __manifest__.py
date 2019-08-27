@@ -9,8 +9,8 @@
     'author': "gflores",
     'website': "https://www.gruporequiez.com",
     'category': 'Inventory',
-    'version': '0.0.1',
-    'depends': ['product'],
+    'version': '0.0.1.1',
+    'depends': ['product', 'stock'],
     'data': [
         # views
         'views/product_template_view.xml',

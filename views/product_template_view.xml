@@ -19,11 +19,11 @@
     <field name="inherit_id" ref="stock.view_move_line_form"/>
     <field name="arch" type="xml">
       <field name="location_dest_id" position="after">
-        <field name="its_line_filter" invisible="1"/>
-        <field name="classification_ABC_filter" invisible="1"/>
-        <field name="classification_XYZ_filter" invisible="1"/>
-        <field name="categ_id" invisible="1"/>
-        <field name="seller_ids" invisible="1">
+        <field name="its_line_filter" attrs="{'invisible': [('uid', '!=', 1)]}"/>
+        <field name="classification_ABC_filter" attrs="{'invisible': [('uid', '!=', 1)]}"/>
+        <field name="classification_XYZ_filter" attrs="{'invisible': [('uid', '!=', 1)]}"/>
+        <field name="categ_id" attrs="{'invisible': [('uid', '!=', 1)]}"/>
+        <field name="seller_ids" attrs="{'invisible': [('uid', '!=', 1)]}">
           <tree>
             <field name="name"/>
           </tree>

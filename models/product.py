@@ -18,24 +18,17 @@ class ProductClassification(models.Model):
         ('Z', 'Z')], string="Classification XYZ")
 
 
-class StockMoveLineClassification(models.Model):
-    _inherit = 'stock.move.line'
-    _name = 'stock.move.line'
-
-    its_line_filter = fields.Boolean(
-        string='Its Line', related='product_id.its_line')
-    classification_ABC_filter = fields.Selection(
-        string='Classification ABC', related='product_id.classification_ABC')
-    classification_XYZ_filter = fields.Selection(
-        string='Classification XYZ', related='product_id.classification_XYZ')
-    categ_id = fields.Many2one(
-        string='Category', related='product_id.categ_id')
-    seller_ids = fields.One2many(
-        string='Seller', related='product_id.seller_ids')
-
-    # campo = fields.Boolean(compute='calcula', string='Campo', store=True)
-    #
-    # @api.depends('its_line_filter')
-    # def calcula(self):
-    #     for s in self:
-    #         s.campo = s.its_line_filter
+# class StockMoveLineClassification(models.Model):
+#     _inherit = 'stock.move.line'
+#     _name = 'stock.move.line'
+#
+#     line = fields.Boolean(
+#         string='Its Line', related='product_id.its_line')
+#     abc = fields.Selection(
+#         string='Classification ABC', related='product_id.classification_ABC')
+#     xyz = fields.Selection(
+#         string='Classification XYZ', related='product_id.classification_XYZ')
+#     categ = fields.Many2one(
+#         string='Category', related='product_id.categ_id')
+#     sellers = fields.One2many(
+#         string='Seller', related='product_id.seller_ids')

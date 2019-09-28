@@ -11,7 +11,8 @@ class ProductClassification(models.Model):
     classification_ABC = fields.Selection([
         ('A', 'A'),
         ('B', 'B'),
-        ('C', 'C')], string="Classification ABC")
+        ('C', 'C'),
+        ('O', 'O')], string="Classification ABC")
     classification_XYZ = fields.Selection([
         ('X', 'X'),
         ('Y', 'Y'),

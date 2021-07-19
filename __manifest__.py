@@ -9,7 +9,7 @@
     'author': "gflores",
     'website': "https://www.gruporequiez.com",
     'category': 'Inventory',
-    'version': '0.0.1',
+    'version': '14.0.0.0.1',
     'depends': ['product', 'stock'],
     'data': [
         # views
